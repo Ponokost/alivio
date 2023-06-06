@@ -98,12 +98,13 @@
   position: relative;
   padding-bottom: 126%;
   /* высота блока будет расти пропорционально его ширине высота\ширину*100% */
-  background: green;
+  /* background: green; */
 
 }
 
 
 .step-img {
+  border-radius: 8px;
   position: absolute;
   left: 0;
   top: 0;
