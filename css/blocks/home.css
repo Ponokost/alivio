@@ -49,3 +49,34 @@
   height: 100%;
   object-fit: cover;
 }
+
+/* =====================media============= */
+@media (max-width:991px) {
+  .home {
+    min-height: unset;
+    padding: 40px 0;
+  }
+
+  .home-bg-img img {
+    opacity: .35;
+  }
+
+  .home-heading {
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+  .home-heading {
+    line-height: 1.2;
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+
+  .home-text+* {
+    margin-top: 15px;
+  }
+
+
+
+}
