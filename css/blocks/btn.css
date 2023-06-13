@@ -29,11 +29,13 @@ a.btn-big {
   .btn-big,
   a.btn-big {
     height: 55px;
+    font-size: 18px;
   }
 
   .btn,
   a.btn {
     height: 41px;
     padding: 0 30px;
+    font-size: 16px;
   }
 }
