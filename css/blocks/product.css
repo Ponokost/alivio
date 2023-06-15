@@ -199,6 +199,10 @@
 }
 
 @media (max-width:535px) {
+  .product {
+    padding-top: 40px;
+  }
+
   .product-card {
 
     bottom: -140px;

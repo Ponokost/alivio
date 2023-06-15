@@ -5,9 +5,6 @@
 }
 
 
-
-.footer-conent {}
-
 .footer-logo+* {
   margin-top: 74px;
 }
@@ -29,4 +26,44 @@
 .footer-nav a:hover {
   opacity: .8;
 
+}
+
+/* ============media========= */
+@media (max-width:1399px) {
+  .footer {
+    padding: 80px 0 100px;
+  }
+
+  .footer-logo+* {
+    margin-top: 60px;
+  }
+
+  .footer-nav {
+    font-size: 22px;
+  }
+
+  .footer-nav li+li {
+    margin-top: 40px;
+  }
+
+}
+
+
+
+@media (max-width:500px) {
+  .footer {
+    padding: 40px 0 60px;
+  }
+
+  .footer-logo+* {
+    margin-top: 40px;
+  }
+
+  .footer-nav {
+    font-size: 16px;
+  }
+
+  .footer-nav li+li {
+    margin-top: 20px;
+  }
 }

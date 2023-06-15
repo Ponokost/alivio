@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/base.css" />
     <!-- blosks -->
     <link rel="stylesheet" href="css/blocks/btn.css" />
+    <link rel="stylesheet" href="css/blocks/mobile-nav-btn.css" />
     <link rel="stylesheet" href="css/blocks/header.css" />
     <link rel="stylesheet" href="css/blocks/home.css" />
     <link rel="stylesheet" href="css/blocks/how-it-works.css" />
@@ -41,12 +42,16 @@
             <a class="header-login-link" href="#">Sign in</a>
             <a class="btn" href="#">Start Trial</a>
           </div>
+
+          <button type="button" class="mobile-nav-button">
+            <span class="mobile-nav-button__icon"></span>
+          </button>
         </div>
       </div>
     </header>
     <!-- header -->
     <main>
-      <section class="home none">
+      <section class="home">
         <div class="container">
           <div class="home-content">
             <h1 class="home-heading">Be aware, Manage well.</h1>
@@ -67,7 +72,7 @@
         </div>
       </section>
       <!-- home -->
-      <section class="how-it-works none">
+      <section class="how-it-works">
         <div class="container">
           <div class="how-it-works-header">
             <div class="how-it-works-header-head">
@@ -127,7 +132,7 @@
         </div>
       </section>
       <!-- how-it-works -->
-      <section class="story none">
+      <section class="story">
         <div class="container container-wide">
           <div class="story-row">
             <div class="story-content">
@@ -157,7 +162,7 @@
         </div>
       </section>
       <!-- story -->
-      <section class="product none">
+      <section class="product">
         <div class="container">
           <div class="product-row">
             <div class="product-img-wrapper">
@@ -233,5 +238,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
