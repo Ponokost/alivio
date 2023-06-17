@@ -67,3 +67,6 @@ body {
 p+p {
   margin-top: 1em;
 }
+.no-scroll{
+  overflow: hidden;
+}

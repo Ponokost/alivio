@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/blocks/story.css" />
     <link rel="stylesheet" href="css/blocks/product.css" />
     <link rel="stylesheet" href="css/blocks/footer.css" />
+    <link rel="stylesheet" href="css/blocks/mobile-nav.css" />
 
     <!-- fonts -->
     <link rel="stylesheet" href="./css/Fonts/Georgia/stylesheet.css" />
@@ -50,6 +51,22 @@
       </div>
     </header>
     <!-- header -->
+    <div class="mobile-nav">
+      <img class="mobile-nav-logo" src="./img/Logo.svg" alt="logo" />
+      <nav class="mobile-list">
+        <ul>
+          <li><a href="#">Why Alivio</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-login">
+        <a href="#">Sign in</a>
+        <a class="btn btn-mob" href="#">Start Trial</a>
+      </div>
+    </div>
+    <!-- mobile-nav -->
     <main>
       <section class="home">
         <div class="container">
@@ -147,17 +164,27 @@
               </div>
             </div>
             <div class="story-video">
-              <div class="story-video-overlay">
-                <button class="story-video-btn">
-                  <img src="./img/story/play.svg" alt="play" />
+              <div id="video-story-ovelay" class="story-video-overlay">
+                <button id="video-story-btn" class="story-video-btn">
+                  <img
+                    id="story-video-btn-icon"
+                    width="82"
+                    height="82"
+                    src="./img/story/play.svg"
+                    alt="play"
+                  />
                 </button>
               </div>
-              <img
+              <!-- <img
                 class="story-video-object"
                 src="./img/story/video.jpg"
                 alt="video"
-              />
+              /> -->
+              <video class="story-video-object" id="video-story">
+                <source src="video/cover.mp4" type="video/mp4" />
+              </video>
             </div>
+            <!-- story-video -->
           </div>
         </div>
       </section>
